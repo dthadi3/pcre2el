@@ -1,5 +1,9 @@
 language: emacs
 
+arch:
+  - AMD64
+  - ppc64le
+
 env:
   - "EMACS=emacs24        CHECK_TARGET=test"
   - "EMACS=emacs24        CHECK_TARGET=test-interactive"
